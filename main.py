@@ -608,6 +608,6 @@ def match_page(case_id):
 if __name__ == "__main__":
     init_db()
     
-    send_whatsapp_alert("+917483825056", "Test message from Missing Person System")
+    send_whatsapp_alert("+to number", "Test message from Missing Person System")
 
     app.run(debug=True)
