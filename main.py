@@ -20,8 +20,8 @@ from reportlab.pdfgen import canvas
 
 from twilio.rest import Client
 
-TWILIO_SID = "ACe8341336be8357a40bc265daf97d03d6"
-TWILIO_AUTH = "9e5b22a7da9e11245ee610d74535be48"
+TWILIO_SID = " "
+TWILIO_AUTH = " "
 TWILIO_WHATSAPP = "whatsapp:+14155238886"   # Sandbox number
 
 client = Client(TWILIO_SID, TWILIO_AUTH)
