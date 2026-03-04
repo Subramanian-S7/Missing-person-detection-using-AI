@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Match Found</title>
+</head>
+
+<body>
+
+<h2>Person Found</h2>
+
+<p>Name: {{case.first_name}} {{case.last_name}}</p>
+
+<p>Location: {{case.last_seen_location}}</p>
+
+<p>Time: {{case.last_seen_time}}</p>
+
+<img src="{{ url_for('static', filename=case.image_path) }}" width="200">
+
+<br><br>
+
+<a href="/">Back</a>
+
+</body>
+
+</html>
